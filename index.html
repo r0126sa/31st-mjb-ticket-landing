@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>第31回 モダンジャズバレエ部 自主公演｜チケットお申し込みページ</title>
+  <meta name="description" content="第31回 モダンジャズバレエ部 自主公演『Unveil ─ ひそかに、確かに、ここにつむぐ物語』チケット申込ページ（学生・一般）。予定枚数に達し次第、受付終了。">
+
+  <!-- Google Fonts（指定セット＋Tangerine） -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Marcellus+SC&family=Noto+Sans+JP:wght@100..900&family=Shippori+Mincho&family=Shippori+Mincho+B1&family=Tangerine:wght@400;700&family=Zen+Kaku+Gothic+New&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#fdfbf7;
+      --ink:#2d3a34;
+      --ink-soft:#44534b;
+      --accent:#e27d87;
+      --accent-weak:#e27d8740;
+      --radius:18px;
+      --maxw:720px;
+    }
+
+    html,body{
+      height:100%;
+      margin:0;
+      color:var(--ink);
+      background:var(--bg);
+      -webkit-font-smoothing:antialiased;
+      text-rendering:optimizeLegibility;
+      font-family:"Shippori Mincho B1","Shippori Mincho","Noto Sans JP",serif;
+      font-feature-settings:"palt" 1,"kern" 1;
+    }
+
+    .wrap{
+      min-height:100%;
+      display:flex;
+      align-items:flex-start;
+      justify-content:center;
+      padding:40px 32px 56px;
+    }
+    .page{ width:100%; max-width:var(--maxw); text-align:center; }
+
+    .eyebrow{
+      letter-spacing:.25em;
+      font-size:clamp(18px, 2.4vw, 22px);
+      margin:14px 0 14px;
+      font-weight:700;
+    }
+    .rule{
+      width:100%; height:0;
+      border-top:2px dashed var(--accent);
+      margin:26px 0 26px; opacity:.85;
+    }
+    .headline{
+      font-weight:700;
+      font-size:clamp(18px, 2.6vw, 22px);
+      letter-spacing:.06em;
+    }
+    .hero{
+      margin:20px auto 4px;
+      font-family:"Tangerine","Shippori Mincho B1",serif;
+      font-weight:700;
+      text-align: center;
+      font-size:clamp(84px, 11vw, 134px);
+      color:var(--accent);
+      line-height:1;
+      letter-spacing:0.02em;
+      text-shadow:0 1px 0 rgba(0,0,0,0.02);
+    }
+    .subtitle{
+      margin:4px 0 4px;
+      font-size:clamp(14px, 2.4vw, 18px);
+      letter-spacing:.25em;
+      font-weight:700;
+    }
+    .catch{
+      margin:6px 0 22px;
+      opacity:.95;
+      font-size:clamp(14px, 2.2vw, 16px);
+      font-weight:500;
+    }
+
+    /* ==== 情報ブロック（センター揃え） ==== */
+    .details{
+      margin:22px auto 8px;
+      max-width:560px;
+      text-align:center;     /* 全体中央 */
+      display:grid;
+      gap:18px;
+      font-weight:500;
+      line-height:1.8;
+    }
+    .details .row{
+      display:grid;
+      grid-template-columns:1fr; /* 常に1列 */
+      justify-items:center;      /* 中央配置 */
+    }
+    .details dt{
+      color:var(--ink-soft);
+      font-weight:700;
+      letter-spacing:.08em;
+      margin-bottom:6px;
+    }
+    .details dd{ margin:0; }
+    .nowrap{ white-space:nowrap; }
+
+    /* ボタン */
+    .btns{
+      margin:26px auto 8px;
+      display:grid;
+      gap:18px;
+      max-width:560px;
+    }
+    .btn{
+      display:block; padding:16px 18px;
+      border:2px solid var(--accent);
+      border-radius:calc(var(--radius) + 6px);
+      text-decoration:none; color:var(--ink);
+      background:linear-gradient(#fff, #fff) padding-box,
+                 linear-gradient(0deg, var(--accent-weak), transparent) border-box;
+      box-shadow:0 6px 18px -10px var(--accent);
+      transition:transform .08s ease, box-shadow .12s ease, background-color .12s ease;
+      font-size:clamp(15px, 2.6vw, 18px);
+      font-weight:600;
+      text-align:center;
+    }
+    .btn:hover{
+      transform:translateY(-1px);
+      box-shadow:0 10px 22px -8px var(--accent);
+      background:linear-gradient(#fff, #fff) padding-box,
+                 linear-gradient(180deg, var(--accent-weak), transparent) border-box;
+    }
+    .btn:active{ transform:translateY(0); box-shadow:0 6px 18px -10px var(--accent); }
+
+    .note{
+      margin:18px auto 0;
+      max-width:560px;
+      font-size:clamp(13px, 2.2vw, 15px);
+      line-height:1.7; opacity:.9; text-align:left;
+    }
+
+    .sr-only{
+      position:absolute!important; width:1px;height:1px;
+      padding:0;margin:-1px; overflow:hidden; clip:rect(0,0,0,0);
+      white-space:nowrap;border:0;
+    }
+
+    @media (min-width:820px){ .wrap{ padding-top:56px; } }
+  </style>
+</head>
+<body>
+  <a class="sr-only" href="#tickets">本文へスキップ</a>
+
+  <main class="wrap">
+    <section class="page" aria-labelledby="title">
+      <p class="eyebrow">チケット お申し込みページ</p>
+      <div class="rule" aria-hidden="true"></div>
+
+      <h1 id="title" class="headline">第31回 モダンジャズバレエ部 自主公演</h1>
+
+      <div class="hero" aria-hidden="true">Unveil</div>
+      <p class="subtitle">ひそかに、確かに、ここにつむぐ物語</p>
+      <p class="catch">―― 幕が上がるその瞬間は、一冊の物語の始まり。<br>
+        『<strong>モダンバレエ × ジャズダンス</strong>』が織りなす世界観をお楽しみください。</p>
+
+      <!-- センター揃えの情報ブロック -->
+      <dl class="details">
+        <div class="row">
+          <dt>日時</dt>
+          <dd>
+            <time datetime="2025-12-21">2025.12.21（日）</time>
+            <span class="nowrap">開場 17:00</span> / <span class="nowrap">開演 17:30</span>
+          </dd>
+        </div>
+        <div class="row">
+          <dt>会場</dt>
+          <dd>
+            立命いばらきフューチャープラザ 2階 グランドホール<br>
+            （立命館大学 大阪いばらきキャンパス内）
+          </dd>
+        </div>
+        <div class="row">
+          <dt>料金</dt>
+          <dd>学生・小学生以下 無料 / 大人 500円（自由席）</dd>
+        </div>
+      </dl>
+
+      <div id="tickets" class="btns" role="group" aria-label="チケット種別を選択">
+        <a class="btn" href="https://forms.gle/tpnmCuJijndhQPy38" target="_blank" rel="noopener noreferrer">
+          学生・小学生以下の方はこちら
+        </a>
+        <a class="btn" href="https://forms.gle/qHxBgoFPqk6hjzRc8" target="_blank" rel="noopener noreferrer">
+          大人の方はこちら
+        </a>
+      </div>
+
+      <div class="rule" aria-hidden="true"></div>
+
+      <div class="note">
+        ※予定枚数に達し次第、受付を終了いたします。ご了承ください。<br>
+        ※学生・小学生以下のチケットは数に限りがございます。売り切れの場合は一般料金でのご案内となります。
+      </div>
+    </section>
+  </main>
+</body>
+</html>
